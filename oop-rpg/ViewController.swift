@@ -37,9 +37,7 @@ class ViewController: UIViewController {
         player = Player (name: "DirtyLaundry21", hp: 110, attackPwr: 20)
         generateRandomEnemy()
 
-        playerHpLbl.text = "\(player.hp) HP"
-        enemyHpLbl.text = "\(enemy.hp) HP"
-        
+        playerHpLbl.text = "\(player.hp) HP"        
 
         
     }
@@ -64,6 +62,7 @@ class ViewController: UIViewController {
 
         enemyImg.hidden = false
         AttackButton.enabled = true
+        enemyHpLbl.text = "\(enemy.hp) HP"
 
     }
 
