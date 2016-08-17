@@ -16,7 +16,7 @@
 		9878C2D91D2839C40051E370 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9878C2D81D2839C40051E370 /* player.swift */; };
 		9878C2DB1D283BD70051E370 /* enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9878C2DA1D283BD70051E370 /* enemy.swift */; };
 		9878C2DD1D283DDB0051E370 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9878C2DC1D283DDB0051E370 /* Kimara.swift */; };
-		9878C2DF1D283F710051E370 /* wizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9878C2DE1D283F710051E370 /* wizard.swift */; };
+		9878C2DF1D283F710051E370 /* Witch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9878C2DE1D283F710051E370 /* Witch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		9878C2D81D2839C40051E370 /* player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
 		9878C2DA1D283BD70051E370 /* enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enemy.swift; sourceTree = "<group>"; };
 		9878C2DC1D283DDB0051E370 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
-		9878C2DE1D283F710051E370 /* wizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wizard.swift; sourceTree = "<group>"; };
+		9878C2DE1D283F710051E370 /* Witch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Witch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 				9878C2D81D2839C40051E370 /* player.swift */,
 				9878C2DA1D283BD70051E370 /* enemy.swift */,
 				9878C2DC1D283DDB0051E370 /* Kimara.swift */,
-				9878C2DE1D283F710051E370 /* wizard.swift */,
+				9878C2DE1D283F710051E370 /* Witch.swift */,
 			);
 			path = "oop-rpg";
 			sourceTree = "<group>";
@@ -154,7 +154,7 @@
 				9878C2D91D2839C40051E370 /* player.swift in Sources */,
 				9878C2DD1D283DDB0051E370 /* Kimara.swift in Sources */,
 				9878C2D71D2837170051E370 /* character.swift in Sources */,
-				9878C2DF1D283F710051E370 /* wizard.swift in Sources */,
+				9878C2DF1D283F710051E370 /* Witch.swift in Sources */,
 				9878C2C71D2836030051E370 /* ViewController.swift in Sources */,
 				9878C2C51D2836030051E370 /* AppDelegate.swift in Sources */,
 			);

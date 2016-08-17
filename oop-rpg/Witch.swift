@@ -8,12 +8,12 @@
 
 import Foundation
 
-class Wizard: Enemy {
+class Witch: Enemy {
     override var loot: [String] {
         return ["Magic Wand","Dark Amulet","Salted Pork"]
     }
     
     override var type: String {
-        return "Wizard"
+        return "Witch"
     }
 }

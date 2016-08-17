@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var enemyImg: UIImageView!
     
+    @IBOutlet weak var witchImg: UIImageView!
+    
     @IBOutlet weak var chestBtn: UIButton!
     
     // MARK: - Constraints Outlets
@@ -56,11 +58,13 @@ class ViewController: UIViewController {
         
         if rand == 0 {
             enemy = Kimara(startingHp: 50, attackPwr: 12)
+            enemyImg.hidden = false
         } else {
-            enemy = Wizard(startingHp: 60, attackPwr: 15)
+            enemy = Witch(startingHp: 60, attackPwr: 15)
+            witchImg.hidden = false
         }
 
-        enemyImg.hidden = false
+//        enemyImg.hidden = false
         AttackButton.enabled = true
         enemyHpLbl.text = "\(enemy.hp) HP"
 
@@ -93,6 +97,7 @@ class ViewController: UIViewController {
             enemyHpLbl.text = ""
             printLbl.text = "Killed \(enemy.type)"
             enemyImg.hidden = true
+            witchImg.hidden = true
             sender.enabled = false
             }
     }
